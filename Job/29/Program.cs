@@ -10,11 +10,11 @@
 */
 
 int[] massive = new int[8];
+Console.WriteLine("Массив:");
 
 for (int i = 0; i < massive.Length; i++)
 {
     massive[i] = new Random().Next(0, 999);
     int list = massive[i];
-    Console.WriteLine("Массив:");
     Console.Write(list + " ");
 }
